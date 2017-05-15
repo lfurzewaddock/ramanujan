@@ -112,7 +112,15 @@ below for more details.
 
 #### Step 0: Install fuge
 
-Follow the instructions at [fuge repository](https://github.com/apparatus/fuge).
+__Please note: 15/05/2017 fuge release v0.8.1 is currently not supported.__
+
+__As of commit 0eecb91 on the master branch, until the official fuge release is supported, the beta version of fuge should be installed instead.__
+
+```sh
+$ npm install -g fuge@beta
+```
+
+To install the current official fuge release, follow the instructions at [fuge repository](https://github.com/apparatus/fuge).
 
 _fuge_ is a development tool that lets you manage and control a
 microservice system for local development. The ramanjun repository is
